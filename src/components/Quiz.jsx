@@ -29,10 +29,10 @@ const Quiz = ({ data, setStop, questionNumber, setQuestionNumber }) => {
   const handleClick = (a) => {
     setSelectedAnswer(a);
     setClassName("answer active");
-    delay(3000, () =>
+    delay(1000, () =>
       setClassName(a.correct ? "answer correct" : "answer wrong")
     );
-    delay(5000, () => {
+    delay(2000, () => {
       if (a.correct) {
         correctAnswer();
         delay(1000, () => {

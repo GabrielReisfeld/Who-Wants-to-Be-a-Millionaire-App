@@ -25,7 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   position: absolute;
   bottom: 10px;
@@ -73,7 +73,7 @@
   background: mediumblue;
 }
 .answer.correct {
-  animation: correct 3s ease forwards;
+  animation: correct 2s ease forwards;
 }
 @keyframes correct {
   0%,
@@ -92,7 +92,7 @@
   }
 }
 .answer.wrong {
-  animation: wrong 3s ease forwards;
+  animation: wrong 2s ease forwards;
 }
 @keyframes wrong {
   0%,
@@ -157,4 +157,5 @@
   left: 0;
   right: 0;
   margin: auto;
+  font-size: 50px;
 }

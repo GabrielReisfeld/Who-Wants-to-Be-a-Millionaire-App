@@ -150,12 +150,27 @@
   font-weight: 300;
 }
 
-.endText {
+.end {
   position: relative;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
-  font-size: 50px;
+  font-size: 40px;
+}
+.playAgain {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 30%;
+    background: teal;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+.playAgain:hover {
+    background: gold;
+    color: black;
 }
